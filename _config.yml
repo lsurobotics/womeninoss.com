@@ -1,8 +1,22 @@
-collections:
-  papers:
-  degrees:
-  awards:
-  fundings:
-  extensions:
-  tools:
-  service:
+# Site settings
+title: Women in OSS
+description: >-
+  A simple blog powered by Jekyll.
+baseurl: "" # Set this if your site is in a subdirectory, e.g., "/blog"
+url: "https://lsurobotics.github.io/womeninoss" # Change to your domain
+
+# Build settings
+theme: minima # Default theme, change if needed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+
+# Exclude files from the build
+exclude:
+  - README.md
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
