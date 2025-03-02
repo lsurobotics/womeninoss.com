@@ -1,9 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: #edede9;
     font-family: "Merriweather", serif;
     color: black;
 }
@@ -17,6 +18,10 @@ body {
     text-align: center;
 }
 
+.quote {
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
 .category-title {
     font-weight: bold;
     margin-top: 15px;
@@ -24,6 +29,7 @@ body {
 }
 
 .card {
+    background-color: #faf9f7;
     margin-top: 10px;
 }
 
@@ -32,7 +38,6 @@ body {
     transition: all 0.3s ease-in-out;
 }
   
-
 .card-link {
     text-decoration: none;
     color: inherit;
