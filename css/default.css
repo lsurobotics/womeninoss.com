@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: "Merriweather", serif;
+    color: black;
+}
+
+.container-lg {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header {
+    text-align: center;
+}
+
+.category-title {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: black !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+
+@media(min-width:992px) {
+    .navbar {
+        background-color: transparent;
+    }
+
+    .container-lg {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
