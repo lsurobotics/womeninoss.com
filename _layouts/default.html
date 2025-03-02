@@ -5,12 +5,12 @@
     <title>{{ page.title }}</title>
     <meta charset="utf-8">
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}//css/bootstrap.min.css">
+    <script type="text/javascript" src="{{ site.url }}//js/bootstrap.min.js"></script>
     <meta name=“theme-color” content="#000000"/>
     <!-- CSS (Default) -->
     <link href="{{ site.url }}/favicon.ico" rel="icon" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}//css/default.css">
     <script src="https://kit.fontawesome.com/3d9da8be4a.js" crossorigin="anonymous"></script>
 </header>
 <body>
@@ -27,6 +27,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://github.com/lsurobotics/womeninoss"><h5>Contribute</h5></a>
+              </li>
+              <li class="nav-item dropdown">
+                <h5><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Topics
+                </a></h5>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else</a></li>
+                </ul>
               </li>
             </ul>
       </div>
