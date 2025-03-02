@@ -23,6 +23,10 @@ body {
     margin-bottom: 15px;
 }
 
+.card {
+    margin-top: 10px;
+}
+
 .card-title {
     color: black !important;
     font-weight: bold;
@@ -43,5 +47,9 @@ body {
     .container-lg {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .card {
+        margin-top: 0px;
     }
 }
