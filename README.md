@@ -1,5 +1,4 @@
-# Contributing to our website   
-
+# Contributing to <i>womeninoss.com</i>
 This tutorial will guide you through setting up the *Women in Open Source* website locally using Jekyll. As a contributor, you'll need to clone the repository, make changes, and test them before submitting your contributions.  
 
 ## Prerequisites  
