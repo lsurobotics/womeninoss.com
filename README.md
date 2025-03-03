@@ -60,7 +60,18 @@ This will:
 - Build the site  
 - Start a local development server at `http://127.0.0.1:4000`  
 
-Open this URL in a browser to preview your changes.  
+Open this URL in a browser to preview your changes. 
+
+## Files and Folders
+| Folder/File   | Purpose  |  
+|--------------|----------------------------------------------------|  
+| `js/`        | Contains JavaScript files for site functionality and interactivity. |  
+| `css/`       | Holds stylesheets that define the website’s design and layout. |  
+| `_posts/`    | Stores Markdown files for discussion posts, following Jekyll’s post format. |  
+| `_layouts/`  | Contains HTML templates that structure different types of pages. |  
+| `_site/`     | Automatically generated static site files (**do not edit, will be overwritten**). |  
+| `_config.yml` | Defines site-wide settings, including metadata, plugins, and configurations. |  
+| `index.html` | The main homepage file that determines the front page content and layout. |
 
 ## Making Changes  
 
