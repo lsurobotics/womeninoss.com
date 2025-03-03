@@ -71,7 +71,8 @@ Open this URL in a browser to preview your changes.
 | `_layouts/`  | Contains HTML templates that structure different types of pages. |  
 | `_site/`     | Automatically generated static site files (**do not edit, will be overwritten**). |  
 | `_config.yml` | Defines site-wide settings, including metadata, plugins, and configurations. |  
-| `index.html` | The main homepage file that determines the front page content and layout. |
+| `index.html` | The main homepage file that determines the front page content and layout. |  
+| `img/`       | Stores image assets used throughout the website. |
 
 ## Making Changes  
 
