@@ -23,29 +23,17 @@
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item dropdown">
-                <h5><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h5><a class="nav-link dropdown-toggle" href="http://localhost:4000#discussions">
                   Discussions
                 </a></h5>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else</a></li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
-                <h5><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h5><a class="nav-link dropdown-toggle" href="http://localhost:4000#tools">
                   Tools
                 </a></h5>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else</a></li>
-                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://github.com/lsurobotics/womeninoss"><h5>Contribute</h5></a>
+                <a class="nav-link" href="https://github.com/lsurobotics/womeninoss" target="_blank"><h5>Contribute</h5></a>
               </li>
             </ul>
       </div>
@@ -59,10 +47,10 @@
 </div>
 <div class="row">
     <p></p>
-    <h4 class="category-title"><b>Discussions</b></h4>
+    <h4 id="discussions" class="category-title"><b>Discussions</b></h4>
     <h5 class="category-title">For new contributors:</h5>
     <div class="row row-cols-1 row-cols-lg-2">
-        <a href="http://localhost:4000/posts/example" class="card-link">
+        <a href="http://localhost:4000/posts/starting-in-oss" class="card-link">
           <div class="col">
             <div class="card">
               <img src="img/starting.png" class="card-img-top" alt="Starting as a woman in open source">
@@ -73,6 +61,7 @@
             </div>
           </div>
         </a>
+        <a href="http://localhost:4000/posts/overcoming-challenges" class="card-link">
         <div class="col">
           <div class="card">
             <img src="img/barriers.png" class="card-img-top" alt="Challenges faced by women">
@@ -82,12 +71,14 @@
             </div>
           </div>  
         </div>
+        </a>
     </div>
 </div>
 <div class="row">
     <p></p>
     <h5>For project mantainers:</h5>
     <div class="row row-cols-1 row-cols-lg-2">
+      <a href="http://localhost:4000/posts/preparing-mentors" class="card-link">
         <div class="col">
           <div class="card">
             <img src="img/preparing.png" class="card-img-top" alt="Preparing mentors to support women">
@@ -97,6 +88,8 @@
             </div>
           </div>
         </div>
+      </a>
+        <a href="http://localhost:4000/posts/creating-supportive-communities" class="card-link">
         <div class="col">
             <div class="card">
               <img src="img/supportive.png" class="card-img-top" alt="Creating supportive communities">
@@ -106,11 +99,12 @@
               </div>
             </div>
           </div>
+        </a>
     </div>
 </div>
 <div class="row">
   <p></p>
-  <h4><b>Tools</b></h4>
+  <h4 id="tools" class="category-title"><b>Tools</b></h4>
   <h5>Our tools are still a work in progress, but here’s what we have so far:</h5>
   <div class="row row-cols-1 row-cols-lg-2">
       <a href="http://localhost:4000/posts/example" class="card-link">
