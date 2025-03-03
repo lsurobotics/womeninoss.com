@@ -22,12 +22,6 @@ body {
     font-family: "Playwrite IT Moderna", cursive;
 }
 
-.category-title {
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
 .card {
     background-color: #faf9f7;
     margin-top: 10px;
