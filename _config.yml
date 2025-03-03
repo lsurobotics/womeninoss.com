@@ -1,7 +1,7 @@
 # Site settings
 title: Women in OSS
 description: >-
-  A simple blog powered by Jekyll.
+  A website to support women participation in open source projects.
 baseurl: "" # Set this if your site is in a subdirectory, e.g., "/blog"
 url: "https://lsurobotics.github.io/womeninoss" # Change to your domain
 
