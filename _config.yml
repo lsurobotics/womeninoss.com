@@ -5,12 +5,6 @@ description: >-
 baseurl: "" # Set this if your site is in a subdirectory, e.g., "/blog"
 url: "https://womeninoss.com" # Change to your domain
 
-# Build settings
-theme: minima # Default theme, change if needed
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
 # Markdown settings
 markdown: kramdown
 

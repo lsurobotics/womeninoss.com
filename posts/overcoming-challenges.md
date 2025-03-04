@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "Overcoming challenges faced by women"
+image: barriers.png
 ---
 
 #### Overcoming challenges faced by women

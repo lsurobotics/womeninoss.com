@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "Creating suppotive communities"
+image: supportive.png
 ---
 
 #### Why Inclusivity Matters for Open Source Projects
