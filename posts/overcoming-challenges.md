@@ -4,120 +4,38 @@ title:  "Overcoming challenges faced by women"
 image: barriers.png
 ---
 
-#### Overcoming challenges faced by women
+##### It's time to talk about them
+Open-source software (OSS) thrives on collaboration and innovation, yet for many women, entering this space can feel like an uphill battle. With only 11% of OSS contributors being women — and even fewer in leadership roles — the gender gap is undeniable. A significant part of this issue stems from the challenges women face while contributing to open-source projects, many of which go unrecognized or unaddressed. By shedding light on these obstacles, we believe we can foster more inclusive environments, build confidence in newcomers, and increase women’s participation in OSS. This section reveals challenges women face in OSS.
 
-Open-source software (OSS) is built on collaboration and creativity, but for many women, stepping into this world can feel like an uphill battle. With only **11% of OSS contributors** being women and even fewer reaching leadership roles, the gender gap is clear. Yet, by addressing the specific challenges women face, OSS communities can create more inclusive environments that encourage and empower new contributors. Let’s explore the challenges women face in OSS and how we can address them.
+##### Lack of peer support
+Research has shown that a significant challenge for women contributing to OSS is the lack of peer parity, leading contributors to feel invisible in larger men-dominated groups (<a class="paper" target="__blank" href="https://dl.acm.org/doi/full/10.1145/3510460?casa_token=Byrbr08Ixd0AAAAA%3AeYpmhNfBa0laTMBfKMPItVYE3Ecz7Lu2Wk2PvxmK1DumMQm1toYlm-glh8xHKwIcKsIqEoNOtOdD">Trinkenreich et al., 2022 ⇗</a>). Without female mentors, many women struggle to find guidance, leading to isolation and, ultimately, disengagement. Expanding the presence of women in leadership and mentorship roles is essential to fostering a more inclusive and supportive environment. While such a problem is a work-in-progress, structured mentorship programs, like those offered by <a class="paper" target="__blank" href="https://www.outreachy.org/">Outreachy ⇗</a> and <a class="paper" target="__blank" href="https://summerofcode.withgoogle.com/">Google Summer of Code ⇗</a>, are great initiatives for those willing to particiapte in OSS communities. These programs provide practical advice and a clear path towards contributions. 
 
----
+However, don't let this discourage you! If you're eager to contribute to an OSS project, don't let the potential lack of peer support hold you back. Research has also demonstrated that women play crucial roles, both as coders and non-coders, within OSS communities, with many serving as maintainers. Sharing success stories of women can inspire newcomers and increase visibility. If you know any active OSS contributors, invite them to share their experiences! Our website welcomes histories from OSS contributors.
 
-#### 1. Lack of Peer Support for Women
-For many women in OSS, the absence of mentors or role models makes it harder to navigate these communities. Research highlights that **66% of barriers** newcomers face are social, such as the lack of mentorship and peer support. However, mentorship is most impactful when women can connect with other women who have successfully contributed to OSS. Without female mentors, many women struggle to find guidance, leading to isolation and, ultimately, disengagement. Expanding the presence of women in leadership and mentorship roles is essential to fostering a more inclusive and supportive environment.
+##### Keeping the ball rolling
+Taking that first step in OSS is a complicated step for any newcomer. For women, the fear of judgment, the imposter syndrome, the lack of peer parity and work-life balance issues can make the process even more complicated. We need to keep the ball rolling. OSS projects provide great learning experiences for women, allowing them to connect with the software industry, and learn more about software development. To avoid frustation while contributing to OSS projects, a few strategeis can be used:
 
-![Mentorship Support](https://example.com/mentorship-support.jpg)
+- **Start with something simple**: Always start with something simple. OSS projects usually categorize tasks that are suitable for newcomers with labels such as "good first issue" or "beginner friendly".
+- **Always contact the community**: While women remain a minority in OSS, many contributors are eager to support newcomers. Don’t let the lack of peer parity discourage you from getting involved — your contributions are as valuable to the community as theirs.
+- **Don't let the imposter syndrome or fear of judgment dominate you**: According to <a class="paper" target="__blank" href="https://www.forbes.com/sites/lucianapaulise/2023/03/08/75-of-women-executives-experience-imposter-syndrome-in-the-workplace/">Forbes ⇗</a>, 75% of women executives face imposter syndrome in their workspace. While such a feeling persist in most women, perseverance and courage are the keys. Don't let the imposter syndrome of the fear of judgment dominate you. You are talented. You are qualified. You can do it.
 
-##### How to Address This Challenge
-- **Structured mentorship programs** like those offered by Outreachy and Google Summer of Code provide practical advice, emotional support, and a clear path forward.
-- **Sharing success stories** of women in OSS through blogs and social media can inspire newcomers and amplify visibility.
-- **Highlighting role models** creates a ripple effect, motivating others to get involved and stay engaged.
+For those who are already part of OSS communities, the support of newcomers is essential. Don't let newcomers give up on their contributions, and help them as much as possible. 
 
-**Bar Chart:** Compare the percentage of women mentors available versus men mentors in OSS communities. Highlight the gap in mentorship opportunities based on gender.
+##### Non-inclusive environments
+Toxicity and negative behavior are unfortunately significant and present challenges women face in OSS communities. In a research survey (<a class="paper" target="__blank" href="https://dl.acm.org/doi/full/10.1145/3510460?casa_token=Byrbr08Ixd0AAAAA%3AeYpmhNfBa0laTMBfKMPItVYE3Ecz7Lu2Wk2PvxmK1DumMQm1toYlm-glh8xHKwIcKsIqEoNOtOdD">Trinkenreich et al., 2022 ⇗</a>), women involved in OSS reported the presence of gender bias, harassment, and exclusionary behavior in many OSS communities. From dismissive comments in technical discussions to outright harassment, these behaviors push many women out of this context. Even after contributing, women often face greater scrutiny compared to men. Occurrences connected to the ideas of <a class="paper" target="__blank" href="https://hbr.org/2015/03/the-5-biases-pushing-women-out-of-stem">"prove-it-again" ⇗</a> and <a class="paper" target="__blank" href="https://eige.europa.eu/publications-resources/thesaurus/terms/1099?language_content_entity=en">"glass ceiling" ⇗</a> force women to repeatedly demonstrate their competence, making the process of contributing to OSS exhausting and discouraging.
 
-**Quote Graphic:** Include a quote from Bianca Trinkenreich's work, such as:
-> "Mentorship programs serve as a key strategy for retaining newcomers in OSS projects, but they often fail to address gender-specific barriers."
+To foster positive experiences, we encourage women to:
+- Contribute to communities that uphold a clear and enforceable code of conduct (e.g., <a class="paper" target="__blank" href="https://rubyonrails.org/conduct">Rails's Code of Conduct ⇗</a>).
+- Engage with mentors that support and advocate for your contributions.
+- Report any instances of toxicity or discrimination to project mantainers.
+- Focus on projects with diverse leadership and a commitment to gender equity.
 
----
+##### Other challenges
+Besides gender-associated challenges, women also face the same challenges of any newcomer. Igor Steinmacher lists several of these barriers in his <a class="paper" target="__blank" href="https://www.teses.usp.br/teses/disponiveis/45/45134/tde-30112015-131552/publico/TeseSteinmacher.pdf">thesis ⇗</a> "Supporting newcomers to overcome the barriers to contribute to open software projects". Among the barriers most newcomers face, we find the following categories:
 
-#### 2. Finding Motivation: Getting the Ball Rolling
-Taking that first step in OSS is often the hardest. For women, the fear of judgment or not knowing where to start can be especially daunting. However, research shows that **motivation increases significantly** after a first successful contribution, making this initial step critical.
+- <b>Personal barriers:</b> This includes fear of judgment, low confidence, and hesitation to ask for assistance.
+- <b>Interpersoanl barriers:</b> Lack of response from mantainers, unwelcoming communities, and lack of documentation.
+- <b>Process barriers:</b> Lengthy contributions, unclear contribution guidelines, and difficulty in finding beginner-friendly tasks.
+- <b>Technical barriers:</b> Difficulties in setting up the project locally, high code complexity, and lack of background knowledge to start a contribution.
 
-![Getting Started in OSS](https://example.com/getting-started.jpg)
-
-**Pie Chart:** Break down motivations for women entering OSS:
-- Learning new skills (30%)
-- Altruism (25%)
-- Career development (20%)
-- Other reasons (25%)
-
-##### How to Address This Challenge
-- **Beginner-friendly issues**, often labeled "good first issue" on GitHub, are an excellent starting point.
-- **Clear documentation and accessible resources** can smooth the onboarding process.
-- **Support for first contributions** increases retention and confidence in OSS.
-
----
-
-#### 3. Pull Request Acceptance
-Even after contributing, women often face greater scrutiny compared to men. This "prove-it-again" bias forces women to repeatedly demonstrate their competence, making the process exhausting and discouraging. **Pull requests from women are 12% less likely to be accepted** when their profiles reveal their gender.
-
-![Pull Request Bias](https://example.com/pull-request-bias.jpg)
-
-**Line Graph:** Show the discrepancy in PR acceptance rates for gender-identified profiles versus gender-neutral profiles. Highlight the data: **12% lower acceptance rate for women** when their gender is identifiable.
-
-##### How to Address This Challenge
-- **Prioritizing constructive feedback** to ensure reviews focus on technical merits.
-- **Encouraging women to start with high-impact projects** to build credibility.
-- **Anonymizing contributors during PR reviews** to reduce unconscious bias.
-
----
-
-#### 4. Bias for Women in Open Source
-Gender bias is a persistent issue in OSS. Many women report feeling the "prove-it-again" bias, where they must repeatedly demonstrate their value, while men are often judged less harshly. This bias, combined with **imposter syndrome**, makes it difficult for women to feel confident in their abilities.
-
-![Glass Ceiling](https://example.com/glass-ceiling.jpg)
-
-**Stacked Bar Chart:** Compare the prevalence of bias-related challenges across genders, such as "glass ceiling" effects or "maternal wall" challenges.
-
-##### How to Address This Challenge
-- **Peer support and mentorship** help women feel validated in their work.
-- **Celebrating women’s contributions publicly** ensures their achievements are acknowledged.
-- **Encouraging self-advocacy** to reinforce credibility within OSS communities.
-
----
-
-#### 5. Non-Inclusive Environments
-Toxicity in OSS communities is another significant challenge. Over **73% of the barriers** women face in OSS involve some form of gender bias, harassment, or exclusionary behavior. From dismissive comments in technical discussions to outright harassment, these behaviors push many women out of OSS.
-
-![Toxic OSS Environment](https://example.com/toxic-oss.jpg)
-
-**Heatmap:** Display common forms of exclusion reported by women in OSS communities (inappropriate language, dismissive comments, lack of peer parity, etc.).
-
-##### How to Address This Challenge
-- **Enforce codes of conduct** to hold community members accountable.
-- **Community leaders must actively create** a culture of respect and inclusivity.
-- **Joining inclusive projects** can significantly improve women’s experiences in OSS.
-
----
-
-#### 6. General Challenges Every Newcomer Faces
-Newcomers entering OSS projects often face significant challenges that can hinder their participation and long-term engagement. These challenges can be broadly classified into:
-
-##### **Personal Barriers**
-- Fear of judgment
-- Low confidence
-- Hesitation to ask for help
-
-##### **Interpersonal Barriers**
-- Low response rates
-- Unwelcoming communities
-- Poor documentation
-
-##### **Process Barriers**
-- Lengthy reviews
-- Unclear contribution guidelines
-- Difficulty finding beginner-friendly projects
-
-##### **Technical Barriers**
-- Complex setup
-- High code complexity
-- Lack of background knowledge
-
-##### How to Address This Challenge
-- **Mentorship & onboarding programs** to boost confidence.
-- **Clear documentation & labeled beginner tasks** for easy entry.
-- **Streamlined contribution processes** to keep newcomers engaged.
-- **Pre-configured environments** to simplify setup.
-
----
-
-By addressing these challenges, OSS communities can foster a more inclusive and diverse environment, ensuring that women and newcomers feel welcomed, supported, and empowered to contribute meaningfully.
-
-
+While such barriers may exist, following our guidelines for getting started in an open-source project can help overcome these challenges. Don't waste your time, read our <a class="paper" target="__blank" href="http://localhost:4000/posts/starting-in-oss">discussion ⇗</a> on this topic.

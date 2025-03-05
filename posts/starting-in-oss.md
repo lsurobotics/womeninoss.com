@@ -4,7 +4,7 @@ title:  "Starting in open-source communities"
 image: starting.png
 ---
 
-##### 1. The gender gap in open-source software
+##### 1. The gender gap in open-source projects
 If you're part of the tech community, you've probably noticed that most people around you — whether at work, college, or online platforms — are men. And that's not just an impression: women are a still a minority in tech. In a research study on open-source communities, <a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/8812044">Qiu et al., 2022 ⇗</a> identified that 9.7% of GitHub users are women. This lack of representation makes it harder for women to find opportunities, secure referrals, and feel confident in contributing to open-source software (OSS).
 
 Contributing to OSS is a great way to enhance skills, contribute to the software industry, and even secure a job at a company. In this discussion, we explain the initial steps that every women can follow to start contributing in OSS projects.
