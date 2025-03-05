@@ -1,124 +1,59 @@
 ---
 layout: post
-title:  "Starting in open source communities"
+title:  "Starting in open-source communities"
 image: starting.png
 ---
 
-##### 1. The Gender Gap in Open Source
-If you're part of the tech community, you've probably noticed that most people around you — whether at work, college, or online communities — are men. And that's not just an impression: women are a still a minority in tech. In a research study on open source communities, Qiu et al., 2022 show that only 9.7% of GitHub users are women. This lack of representation makes it harder for women to find opportunities, secure referrals, and feel confident in contributing to open-source software (OSS). Currently, women make up approximately 10% of OSS contributors, and we aim to change that.
+##### 1. The gender gap in open-source software
+If you're part of the tech community, you've probably noticed that most people around you — whether at work, college, or online platforms — are men. And that's not just an impression: women are a still a minority in tech. In a research study on open-source communities, <a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/8812044">Qiu et al., 2022 ⇗</a> identified that 9.7% of GitHub users are women. This lack of representation makes it harder for women to find opportunities, secure referrals, and feel confident in contributing to open-source software (OSS).
 
-Contributing to OSS is a great way to enhance skills, increase competitiveness in the software industry, and even secure a job at a company. In this discussion, we explain the initial steps that every women can follow to start contributing to OSS communities.
+Contributing to OSS is a great way to enhance skills, contribute to the software industry, and even secure a job at a company. In this discussion, we explain the initial steps that every women can follow to start contributing in OSS projects.
 
-##### 2. What Can You Contribute?
-Many people assume OSS contributions only involve coding, but there are multiple ways to participate:
+##### 2. What is an OSS community?
+Open-source software (OSS) is a software category where their source code of a software project is publicly accessible, allowing anyone to view, modify, and distribute the software. Open-source communities are the ones who support OSS projects. They are known for fostering collaboration and depending on external contributions to keep their projects active. Most communities regularly promote the onboarding of new developers, and tend to welcome new contributions at anytime. In general, anyone is welcome to join an open-source project, even without experience in software development. 
 
-- **Design**: Creating UI/UX designs, branding materials, and user-friendly interfaces.
+Examples of popular open-source projects include the <a class="paper" target="__blank" href="https://github.com/python/cpython">Python ⇗</a> programming language, the <a class="paper" target="__blank" href="https://firefox-source-docs.mozilla.org/contributing/directory_structure.html">Mozilla Firefox ⇗</a> web browser, and the <a class="paper" target="__blank" href="https://github.com/torvalds/linux">Linux</a> operating system kernel. Contributing to open-source projects is a great way to improve software development skills while gaining valuable networking opportunities, engaging with other developers, and contributing to real-world problems.
+
+##### 3. The contribution flow of an OSS project
+OSS projects are collaborative efforts driven by people, and each project has its own approach to software development. Standard practices are found in most projects. <a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/7328020">Steinmacher al., 2015 ⇗</a> describes the contribution flow every newcomer in OSS should follow in five major steps: 
+
+<b>1. Learn about the project and required skills:</b> Before contributing to any OSS project, it's essential to understand its goals and the skills needed. If you're planning to make a code contribution, it's important to know which programming languages the project uses and how they structure their code. If the project is hosted on platforms like GitHub, you can get a feel for the project by exploring its repository. Accessing the <a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/8812044">Visual Studio Code ⇗</a> repository on GitHub, for example, will give you a brief understanding of what programming languages they use, their goals, and how they organize their community. Get familiar with the project before contributing!
+
+<b>2. Setup your local workspace:</b> Before choosing how to contribute to a project, it is important to setup your computer for local development. OSS projects usually write documentation on their website or in specific files inside their repository to teach newcomers how to setup their local workspace. The <a class="paper" target="__blank" href="https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md#developing-for-flutter">flutter ⇗</a> framework, for example, dedicates a whole section of their CONTRIBUTING.md file to guide developers on how to set up their project locally. Look for this sort of information in the project, and don't hesitate to contact mantainers to ask for help when necessary. Most projects use mailing lists and online platforms for communication, use them.
+
+<b>3. Find a task:</b> Once you have the software installed on your computer, it is time to choose your first task. Choosing a first task is not easy, so we reserved the section below to discuss this step in detail.
+
+<b>4. Make a change to the project:</b> Based on the task you've selected, proceed with your contribution accordingly. For documentation tasks, you'll be expected to update the project's documentation. For code contributions, you'll need to modify the source code. Be sure to follow the project's contribution guidelines, which can usually be found in the repository or on the project's website. Adhering to these guidelines ensures your contribution aligns with the project's standards and expectations. The <a class="paper" target="__blank" href="https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#the-process-of-making-changes">Node.js ⇗</a> project, for example, uses it's CONTRIBUTING.md file to describe the expect process of making changes to their repository. 
+
+<b>5. Submit your contribution:</b> Contributions to OSS projects are initially made in your local copy of the project, and then submitted back to the official repository. Once you've made your changes locally, it's time to submit them to the project. If the project is hosted on platforms like GitHub, you’ll use Git, a version control system, to submit your contributions through a pull-request system. Learning the basics of <a class="paper" target="__blank" href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">Git ⇗</a> and the <a class="paper" target="__blank" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull request system ⇗</a> is crucial for successfully contributing to any OSS project. This <a class="paper" target="__blank" href="https://www.youtube.com/watch?v=8A4TsoXJOs8">video ⇗</a> can give you a brief understanding of how the submission via pull requests works on GitHub.
+
+A great way to get started in an OSS project is by reading the project's CONTRIBUTING.md file. This text-based file is typically found in the source code repository of the project, and outlines the types of contributions the community welcomes, providing guidelines for those willing to getting involved in the project. The <a class="paper" target="__blank" href="https://github.com/angular/angular/blob/main/CONTRIBUTING.md">Angular ⇗</a> project, for example, has a CONTRIBUTING.md file available in the root folder of their repository. Some projects, on the other hand, may leave it inside subfolders (e.g., /.github), or use an external website for the same purpose. Always look for the onboarding information before working on your first contribution. 
+
+##### 4. Choosing your first task
+Most newcomers assume that OSS contributions only involve coding, but that's not true. One may contribute to a project in many different ways, including:
+
+- **Design**: Creating designs, branding materials, and user-friendly interfaces for the project.
 - **Code**: Writing and reviewing code for new features, bug fixes, and performance improvements.
 - **Documentation**: Improving and maintaining documentation to help new users and contributors.
 - **Management & Organization**: Coordinating projects, prioritizing tasks, and structuring workflows.
-- **Community & Mentoring**: Supporting new contributors, organizing events, and fostering an inclusive space.
+- **Community & Mentoring**: Supporting new contributors, organizing events, responding questions from users.
 
-##### 3. How We Support Women in OSS
-Our goal is to encourage more women to join and contribute to OSS. We offer resources to help navigate the challenges and build confidence in collaborating within OSS communities.
+You don't have to come with a new contribution out of your mind. As in a software company, OSS projects have a list of tasks to be accomplished by their contributiors. For projects hosted on coding platforms like GitHub, the issue tracking system is a great place where new contributors can look for new tasks. Most projects tend to label tasks that are good for newcomers. The labels vary from project to project, but they are usually named with names such as <a class="paper" target="__blank" href="https://github.com/angular/angular/labels/good%20first%20issue">"good first issue" ⇗</a>, <a class="paper" target="__blank" href="https://github.com/PowerShell/PowerShell/labels/Up-for-Grabs">"up-for-grabs" ⇗</a>, <a class="paper" target="__blank" href="https://github.com/electron/electron/labels/beginner%20friendly">"beginner friendly" ⇗</a> and <a class="paper" target="__blank" href="https://github.com/FreezingMoon/AncientBeast/labels/easy">"easy" ⇗</a>. Every issue has a dedicated space where newcomers can interact with the project maintainers, asking for guidance and clarification. Don't feel intimidated by asking a question, communities tend to be more than interested in helping newcomers.
 
-We cover the following topics:
-- **Challenges Faced by Women in OSS**
-- **Creating Supportive Communities**
-- **Preparing Mentors for Supporting Women**
-- **How to Get Started**
+If you are still unsure about what project you want to contribute, there are great platforms where you can find projects willing to receive newcomers. The <a class="paper" target="__blank" href="https://up-for-grabs.net">"up-for-grabs.net" ⇗</a> website, for example, lists the labels used by different projects to categorize tasks designed for newcomers. These labels are manually registered by the maintainers of each project, which means that projects listed on the website are usually looking for newcomers. The <a class="paper" target="__blank" href="https://goodfirstissue.dev/">"goodfirstissue.dev" ⇗</a> and <a class="paper" target="__blank" href="https://goodfirstissues.com/">"goodfirstissues.com" ⇗</a> websites and the <a class="paper" target="__blank" href="https://github.com/mungell/awesome-for-beginners">"awesome-for-beginners" ⇗</a> repository also list good tasks for newcomers.
 
-##### 4. Getting Started with OSS Contributions
-Breaking into OSS can be intimidating, but a structured approach can help. Here are some steps to guide you:
+Start with something simple. Sometimes solving a simple documentation task can be more effective for your onboarding process than a whole code contribution. Tackling complex tasks too soon can lead to frustration and setbacks. Engage with the project and its community, and don’t hesitate to ask for help when needed. They need you more than you need them. 
 
-##### 5. Finding a Mentor
-A mentor can guide and motivate you throughout your OSS journey. Here’s how to find one:
-- Join women-focused OSS communities (see **Join a Community** section).
-- Participate in mentorship programs like **Google Summer of Code** and **Outreachy**.
-- Engage in discussions, connect via social media, and attend women-in-tech events.
+##### 6. Extra resources for newcomers
+We are not the first website to provide guidelines for newcomers attempting to join OSS projects. <a class="paper" target="__blank" href="https://www.firsttimersonly.com/">"firsttimersonly.com" ⇗</a> provides a quick tutorial on how to start contributing in this context. GitHub itself has a "How to contribute" discussion on their <a class="paper" target="__blank" href="https://opensource.guide/how-to-contribute/">"opensource.guide" ⇗</a> website. <a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/8254320">Steinmacher al., 2022 ⇗</a> also provides extra guidelines for newcomers in their research paper. The authors list the following suggestions:
 
-##### 6. Finding Projects
-Choosing the right OSS project is key. Here’s how:
-- Identify your interests and preferred technologies.
-- Use GitHub Explore or search repositories by topic (e.g., `github.com/topics/<topic>`).
-- Look for beginner-friendly tags like `good first issue`, `beginner-friendly`, or `help wanted`.
-- Contribute to OSS tools you already use.
-- Ask for recommendations from colleagues and OSS contributors.
+- <b> Find an easy task: </b> The biggest mistake a newcomer can make is diving into a complex task right away. Contributing to an open-source project is already challenging — there’s no need to make it harder. Take it slow, learn the basics, and start with something simple to build confidence and experience.
+- <b>Be proactive:</b> Starting with an open-source project is no trivial task, and placing a first contribution takes dedication. Research the project, reach out to the community when needed, and review closed issues that address similar problems. Stay patient, don't let frustration take over, and keep going — you'll get there!
+- <b>Do not be afraid of the community:</b> Engaging with the community can feel intimidating, but don’t let that hold you back. Challenges are a natural part of the contribution process, and OSS projects thrive on collaboration. Remember, these projects exist because of community effort — so don’t hesitate to reach out and ask for help. And please always be kind when sending a message, there's another human on the other side of the screen.
 
-##### 7.Platforms to Find OSS Projects
-- **Up For Grabs** – Lists beginner-friendly projects.
-- **First Contributions** – Guides first-time contributors.
-- **Awesome for Beginners** – Categorized projects by language.
-- **For Good First Issue** – GitHub tool for finding starter tasks.
+##### 7. Being a women in open-source
+Our goal is to empower more women to join and contribute to OSS. On our website, we provide resources to help navigate challenges, build confidence, and foster meaningful collaboration within OSS communities. To learn more, please check our following discussions:
 
-##### 8. Join a Community
-Being part of an OSS community is crucial for networking and gaining experience. Here are some women-focused initiatives:
-- **Queens of Open Source** – Community supporting women in OSS.
-- **PyLadies** – Global community for women in Python.
-- **WiOS (Women in Open Source)** – Promotes women’s contributions.
-- **Awesome4girls** – Lists events and projects for women in tech.
-- **Women in Open Source** – Showcases active women contributors.
-
-##### 9. Learning Programming Languages
-With women making up just 9% of GitHub users, we recognize that starting to code can be overwhelming. Here are communities to support learning:
-- **Women Who Code** – Global network offering events and mentorship.
-- **Girls Who Code** – Free initiatives backed by tech companies.
-- **She Codes** – Courses for beginner women.
-- **Code First: Girls** – Free programming courses and networking opportunities.
-
-##### 10. Making Your First Contribution
-Now that you have a mentor and a project, let’s go step by step through your first contribution.
-
-##### 11. Set Up Your Work Environment
-1. **Create a GitHub account**: Sign up at [GitHub](https://github.com).
-2. **Install Git**: [Windows](https://git-scm.com/download/win) | [Mac](https://git-scm.com/download/mac) | [Linux](https://git-scm.com/download/linux)
-3. **Set up Git in the terminal** (replace with your details):
-   ```sh
-   git config --global user.name "Your Name"
-   git config --global user.email "email@example.com"
-   ```
-
-##### 12. Fork and Clone a Repository
-1. **Fork**: Find a repository and click "Fork" to create a copy.
-2. **Clone to your computer**:
-   ```sh
-   git clone https://github.com/your-username/repository-name.git
-   ```
-
-##### 13. Create a Branch
-Navigate to the repository and create a new branch:
-```sh
-cd repository-name
-git checkout -b my-new-feature
-```
-
-##### 14. Make Changes and Commit
-1. Edit the code or documentation.
-2. Add changes:
-   ```sh
-   git add .
-   ```
-3. Commit with a message:
-   ```sh
-   git commit -m "Description of my contribution"
-   ```
-
-##### 15. Push Changes and Submit a Pull Request (PR)
-1. Push changes to your fork:
-   ```sh
-   git push origin my-new-feature
-   ```
-2. On GitHub, navigate to your fork and click **Pull Request**.
-3. Describe your changes and submit.
-
-Now, wait for maintainers to review your contribution!
-
----
-##### References
-Steinmacher, I., Balali, S., Trinkenreich, B., et al. (2021). *Being a mentor in open source projects*. Journal of Internet Services and Applications, 12, 133.
-
-Trinkenreich, B., Gerosa, M. A., & Steinmacher, I. (2022). *Women in open source: We need to talk about it*. Computer, 55(12), 145-149.
-
-Trinkenreich, B., Wiese, I., Sarma, A., Gerosa, M., & Steinmacher, I. (2022). *Women’s Participation in Open Source Software: A Survey of the Literature*. ACM Transactions on Software Engineering and Methodology, 31(4), 1–37.
-
----
-This guide provides a structured path for women to confidently enter the OSS world, offering resources, mentorship, and community support. Start your journey today!
+- **Overcoming challenges faced by women**
+- **Creating welcoming communities**
+- **Preparing mentor to support women**

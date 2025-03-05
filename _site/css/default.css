@@ -7,6 +7,7 @@ body {
     background-color: #edede9;
     font-family: "Merriweather", serif;
     color: black;
+    text-align: justify;
 }
 
 .container-lg {
@@ -50,6 +51,18 @@ body {
 
 .post-title {
     text-align: center;
+}
+
+.paper {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(160, 20, 160);
+}
+
+.accordion-button, .accordion-button:not(.collapsed), .accordion-item{
+    text-decoration: none;
+    text-align: black !important;
+    background-color: #faf9f7;
 }
 
 @media(min-width:992px) {
