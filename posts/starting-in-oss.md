@@ -54,6 +54,6 @@ We are not the first website to provide guidelines for newcomers attempting to j
 ##### 7. Being a women in open-source
 Our goal is to empower more women to join and contribute to OSS. On our website, we provide resources to help navigate challenges, build confidence, and foster meaningful collaboration within OSS communities. To learn more, please check our following discussions:
 
-- **Overcoming challenges faced by women**
-- **Creating welcoming communities**
-- **Preparing mentor to support women**
+- <a class="link" href="/posts/overcoming-challenges">Overcoming challenges faced by women</a> 
+- <a class="link" href="/posts/creating-supportive-communities">Creating welcoming communities</a>  
+- <a class="link" href="/posts/overcoming-challenges">Preparing mentor to support women</a> 

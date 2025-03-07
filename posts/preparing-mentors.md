@@ -15,7 +15,7 @@ To help newcomers navigate these challenges, projects often assign mentors to gu
 > “Mentors are usually peers who succeeded in overcoming the project challenges themselves and are willing to help others onboard. In this context, a mentor is a peer who was assigned to or who volunteered to support newcomers onboarding to a project.”
 
 #### Highlighted Paper
-**Steinmacher, Igor, et al. "Being a mentor in open source projects." Journal of Internet Services and Applications 12 (2021): 1-33.**
+**"Being a mentor in open source projects."** <a class="paper" target="__blank" href="https://link.springer.com/article/10.1186/s13174-021-00140-z">Steinmacher al., 2021 ⇗</a>
 
 Mentorship programs are essential for the retention of newcomers. The problem, however, is that most mentors are not prepared to support women with the particular challenges they might face due to gender-related issues. Even though an answer to this problem is yet to be given, recent studies summarized guidelines on how to better prepare mentors to support women's participation in OSS. Here is what we have so far:
 
@@ -25,10 +25,10 @@ Most mentors are not adequately prepared to support women in overcoming gender-r
 #### Awareness of Barriers Faced by Newcomers
 A mentor's goal is to help mentees develop their skills through guidance and expertise. Beyond technical support, mentors must also be aware of other challenges newcomers may face, especially when adapting to a project. Challenges such as fear of judgment, performance anxiety, and imposter syndrome are common among individuals attempting to join an OSS project. These challenges affect individuals of all backgrounds, including but not limited to women. An effective mentor recognizes these obstacles and tailors their guidance accordingly to foster a supportive and inclusive environment.
 
-![Common barriers women face in OSS](Figure3.8-BiancaThesis)
+<img class="paper-img" src="/img/figure3.8-BiancaThesis.png" alt="Common barriers women face in OSS">
 
 #### Highlighted Paper
-**Balali, Sogol, et al. "Newcomers’ barriers... is that all? An analysis of mentors’ and newcomers’ barriers in OSS projects." Computer Supported Cooperative Work (CSCW) 27 (2018): 679-714.**
+**"Newcomers’ barriers... is that all? An analysis of mentors’ and newcomers’ barriers in OSS projects."** <a class="paper" target="__blank" href="https://link.springer.com/article/10.1007/s10606-018-9310-8">Balali al., 2018 ⇗</a>
 
 #### Acknowledging Gender Inequalities
 Mentors should stay vigilant about toxic behaviors among their peers and take proactive steps to prevent and address disrespectful conduct. Mentors must also be aware of personal challenges women may face due to gender inequality, such as imposter syndrome and work-life balance issues. Examples of challenges faced by women within OSS communities include:
@@ -38,7 +38,7 @@ Mentors should stay vigilant about toxic behaviors among their peers and take pr
 > *“When women try to achieve more things they are called ambitious in a negative way. Whereas men are expected to.”*
 
 #### Highlighted Paper
-**Trinkenreich, Bianca, et al. "An empirical investigation on the challenges faced by women in the software industry: A case study." Proceedings of the 2022 ACM/IEEE 44th International Conference on Software Engineering: Software Engineering in Society. 2022.**
+**"An empirical investigation on the challenges faced by women in the software industry: A case study."** <a class="paper" target="__blank" href="https://dl.acm.org/doi/abs/10.1145/3510458.3513018">Trinkenreich al., 2022 ⇗</a>
 
 #### Regular Check-Ins and Responsiveness
 Dedicating time and effort to communicating with mentees helps strengthen and grow an OSS community in the long run. Mentors can set specific times for responding to mentees' requests and establish clear communication guidelines — whether through discussion forums, email, or apps like Slack.

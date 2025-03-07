@@ -8,7 +8,8 @@ image: supportive.png
 
 Why is it important to be concerned with gender diversity and supporting women within your open source project? Well, according to research, taking steps to foster an inclusive environment for your open source software project will have a positive impact on areas like productivity, problem-solving, and understanding the needs of users. Research asserts that:
 
-> "Gender diversity positively affects productivity by bringing together different perspectives; improving outcomes, innovation, and problem-solving capacity; and fostering a healthier work environment. A diverse development team is more likely to properly comprehend users’ needs, contributing to a better alignment between the delivered software and its intended customers" ("Please Don’t Go - A Comprehensive Approach to Increase Women’s Participation in Open Source Software").
+> "Gender diversity positively affects productivity by bringing together different perspectives; improving outcomes, innovation, and problem-solving capacity; and fostering a healthier work environment. A diverse development team is more likely to properly comprehend users’ needs, contributing to a better alignment between the delivered software and its intended customers" 
+<a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/9402570">Trinkenreich, 2021 ⇗</a>
 
 There are many benefits to ensuring that an open source community is welcoming and supportive of women, and the actions involved to do this can be very simple.
 
