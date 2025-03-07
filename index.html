@@ -2,90 +2,83 @@
 layout: default
 ---
 <div class="row header">
+  <div class="container-header">
     <img src="img/header.png" class="card-img-top" alt="Introductory image">
-    <h4 class="header-description"><i>Our website provides research-driven discussions and tools to help women make meaningful contributions to open source communities</h4>
+    <h4 class="header-description"><i>Our website provides research-driven discussions and tools to help women make
+        meaningful contributions to open source communities</h4>
+
+  </div>
 </div>
-<div class="row">
-    <p></p>
-    <h4 id="discussions" class="category-title"><b>Discussions</b></h4>
-    <h5 class="category-title">For new contributors:</h5>
-    <div class="row row-cols-1 row-cols-lg-2">
-        <a href="{{ site.url }}/posts/starting-in-oss" class="card-link">
-          <div class="col">
-            <div class="card">
-              <img src="img/starting.png" class="card-img-top" alt="Starting as a woman in open source">
-              <div class="card-body">
-                <h5 class="card-title">Starting as a woman in open source</h3>
-                <p class="card-text">Guiding women on how to effectively contribute to open source software.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="{{ site.url }}/posts/overcoming-challenges" class="card-link">
-        <div class="col">
-          <div class="card">
-            <img src="img/barriers.png" class="card-img-top" alt="Challenges faced by women">
-            <div class="card-body">
-              <h5 class="card-title">Overcoming challenges faced by women</h3>
-              <p class="card-text">Learn how to overcome challenges by building confidence and embracing empowerment strategies.</p>
-            </div>
-          </div>  
-        </div>
-        </a>
+<div id="discussions" class="row section ">
+  <h4 class="category-title"><b>Discussions</b></h4>
+  <h5 class="category-subtitle">For new contributors</h5>
+
+  <div class="row card-flex">
+    <a href="{{ site.url }}/posts/starting-in-oss" class="card-item-cols">
+      <img src="img/starting.png" class="card-img-top" alt="Starting as a woman in open source"">
+        <div class=" card-body">
+      <h5 class="card-title">Starting as a woman in open source</h5>
+      <p class="card-text">Guiding women on how to effectively contribute to open source software.</p>
+  </div>
+  </a>
+
+  <a href="{{ site.url }}/posts/overcoming-challenges" class="card-item-cols">
+    <img src="img/barriers.png" class="card-img-top" alt="Challenges faced by women">
+    <div class="card-body">
+      <h5 class="card-title">Overcoming challenges faced by women</h5>
+      <p class="card-text">Learn how to overcome challenges by building confidence and embracing empowerment
+        strategies.</p>
     </div>
+  </a>
 </div>
-<div class="row">
-    <p></p>
-    <h5>For project mantainers:</h5>
-    <div class="row row-cols-1 row-cols-lg-2">
-      <a href="{{ site.url }}/posts/preparing-mentors" class="card-link">
-        <div class="col">
-          <div class="card">
-            <img src="img/preparing.png" class="card-img-top" alt="Preparing mentors to support women">
-            <div class="card-body">
-              <h5 class="card-title">Preparing mentors to support women</h3>
-              <p class="card-text">Equipping mentors to empower and support women within open source communities.</p>
-            </div>
-          </div>
-        </div>
-      </a>
-        <a href="{{ site.url }}/posts/creating-supportive-communities" class="card-link">
-        <div class="col">
-            <div class="card">
-              <img src="img/supportive.png" class="card-img-top" alt="Creating supportive communities">
-              <div class="card-body">
-                <h5 class="card-title">Creating welcoming communities</h3>
-                <p class="card-text">Building inclusive communities that uplift and empower women participation.</p>
-              </div>
-            </div>
-          </div>
-        </a>
+
+
+<h5 class="category-subtitle" style="margin-top: 15px;">For project mantainers</h5>
+
+<div class="row card-flex">
+  <a href="{{ site.url }}/posts/preparing-mentors" class="card-item-cols">
+    <img src="img/preparing.png" class="card-img-top" alt="Preparing mentors to support women">
+    <div class="card-body">
+      <h5 class="card-title"> Preparing mentors to support women</h5>
+      <p class="card-text"> Equipping mentors to empower and support women within open source communities.
+      </p>
     </div>
+  </a>
+  <a href="{{ site.url }}/posts/creating-supportive-communities" class="card-item-cols">
+    <img src="img/supportive.png" class="card-img-top" alt="Creating supportive communities">
+    <div class="card-body">
+      <h5 class="card-title">Creating welcoming communities</h5>
+      <p class="card-text"> Building inclusive communities that uplift and empower women participation.
+      </p>
+
+    </div>
+  </a>
+
+
 </div>
-<div class="row">
-  <p></p>
-  <h4 id="tools" class="category-title"><b>Tools</b></h4>
-  <h5>Our tools are still a work in progress, but here’s what we have so far:</h5>
-  <div class="row row-cols-1 row-cols-lg-2">
-      <a href="{{ site.url }}" class="card-link">
-        <div class="col">
-          <div class="card">
-            <img src="img/peerfinder.png" class="card-img-top" alt="Starting as a woman in open source">
-            <div class="card-body">
-              <h5 class="card-title">PeerConnect: Finding Peer Support in Open Source</h5>
-              <p class="card-text">Connect with supportive women in open source who foster collaboration, shared learning, and stronger community ties to help each other thrive in OSS.</p>
-            </div>
-          </div>
-        </div>
-      </a>
-      <div class="col">
-        <div class="card">
-          <img src="img/betterconduct.png" class="card-img-top" alt="Challenges faced by women">
-          <div class="card-body">
-            <h5 class="card-title">BetterConduct: Improving Conduct with AI</h5>
-            <p class="card-text">Discover an AI-powered tool that enhances community codes of conduct by fostering fairness, clarity, and inclusivity to help open-source communities thrive.</p>
-          </div>
-        </div>  
+
+
+</div>
+<div id="tools" class="row section color">
+  <h4 class="category-title"><b>Tools</b></h4>
+  <h5 class="category-subtitle">Our tools are still a work in progress, but here’s what we have so far</h5>
+  <div class="row card-flex">
+    <a href="{{ site.url }}/posts/" class="card-item-cols">
+      <img src="img/peerfinder.png" class="card-img-top" alt="Starting as a woman in open source">
+      <div class="card-body">
+        <h5 class="card-title">PeerConnect: Finding Peer Support in Open Source</h5>
+        <p class="card-text">Connect with supportive women in open source who foster collaboration, shared learning,
+          and stronger community ties to help each other thrive in OSS.</p>
       </div>
+    </a>
+
+    <a href="{{ site.url }}/posts/" class="card-item-cols">
+      <img src="img/betterconduct.png" class="card-img-top" alt="Challenges faced by women">
+      <div class="card-body">
+        <h5 class="card-title">BetterConduct: Improving Conduct with AI</h5>
+        <p class="card-text">Discover an AI-powered tool that enhances community codes of conduct by fostering
+          fairness, clarity, and inclusivity to help open-source communities thrive.</p>
+      </div>
+    </a>
   </div>
 </div>

@@ -1,5 +1,6 @@
 # Site settings
 title: Women in OSS
+icon: "img\favicon.ico"
 description: >-
   A website to support women participation in open source projects.
 baseurl: "" # Set this if your site is in a subdirectory, e.g., "/blog"
