@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 :root {
-    --gray: #f3f3f3;
-    --dark-gray: #d6d6d6;
-    --light-gray: #f7f7f7;
+    --scroll-gray: #d6d6d6;
     --white: #ffffff;
     --black-font: #333;
     --black: #000;
-    --shadow: #1e1e1e4f;
-    --purple: rgb(160, 20, 160);
+    --shadow: #1e1e1e28;
+    --link-purple: #a014a0;
+    --quote-purple: #ecdbfa;
+    --light-purple-bg: #ecdbfa;
+    --purple: #e1bdfd;
+    --card-purple: #e1bdfd30;
+    --quote: #f7f7f7a2;
 }
 
 ::-webkit-scrollbar {
@@ -23,24 +25,24 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--dark-gray);
+    background: var(--scroll-gray);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--dark-gray);
+    background: var(--scroll-gray);
 }
 
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-gray) var(--white);
+    scrollbar-color: var(--scroll-gray) var(--white);
 }
 
 
 body {
     background-color: var(--white);
-    font-family: "Google Sans", sans-serif;
+    font-family: "PT Serif", serif;
     color: var(--black-font);
     text-align: justify;
 }
@@ -49,20 +51,36 @@ a {
     text-decoration: none;
 }
 
+li, p {
+    font-size: 17px !important;
+}
+
 .row {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
 }
 
+.navbar.scroll {
+    box-shadow: 0 0 6px 1px var(--shadow) !important;
+}
+
 .navbar {
-    background-color: var(--white);
+    background-color: var(--purple);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
-    box-shadow: 0 0 6px 1px var(--shadow) !important;
     padding: 30px;
+
+    & #navbar_fp {
+        display: none;
+
+    }
+
+    & img.navbar-img {
+        width: 100px;
+    }
 
     & .dropdown-toggle::after {
         margin-left: 0;
@@ -70,7 +88,7 @@ a {
 
     .navbar-brand h4 b {
         font-size: 20px;
-        color: var(--black-font);
+        color: var(--black);
     }
 
     li.nav-item {
@@ -85,7 +103,7 @@ a {
     .nav-link,
     .nav-link h5 {
         font-size: 18px;
-        color: var(--black-font);
+        color: var(--black);
     }
 
 
@@ -98,13 +116,7 @@ a {
 
 .header.post {
     display: flex;
-    background-color: var(--light-gray);
     height: 50vh;
-
-    & .card-img-top {
-        width: 30%;
-        height: auto;
-    }
 
     & .post-title {
         width: 50%;
@@ -116,16 +128,14 @@ a {
 .header {
     margin-top: 50px;
     text-align: center;
-    background-image: url("../img/header_bg.jpg");
+    background: linear-gradient(to bottom, var(--purple) 10%, var(--light-purple-bg) 40%, var(--white) 99%);
     background-position: center;
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: -50px;
     width: 100%;
-    height: calc(100vh - 50px);
-
-    box-shadow: 0px 0px 5px 0px var(--shadow);
+    height: calc(80vh - 50px);
 
     @media (min-width: 992px) {
         .container-header {
@@ -136,19 +146,36 @@ a {
         .container-header {
             max-width: 960px;
         }
+
     }
 
     .container-header {
         padding-left: 40px;
         padding-right: 40px;
+
+        & img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 20px;
+        }
     }
 
     @media (min-width: 1200px) {
         .container-header {
             max-width: 1140px;
+            
         }
     }
 
+    @media (max-width: 800px) {
+        .container-header {            
+            & img {
+                width: 80%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
 
 .section {
@@ -158,7 +185,7 @@ a {
 
 
 .section.color {
-    background-color: var(--gray);
+    background-color: var(--card-purple);
 
     & .card-item-cols {
         background-color: var(--white);
@@ -211,7 +238,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-gray);
+    background-color: var(--card-purple);
     border-radius: 8px;
     margin: 15px;
     width: 50%;
@@ -219,6 +246,11 @@ a {
     min-height: 420px;
     padding: 30px;
 
+}
+
+.card-img-top {
+    width: auto;
+    height: 200px;
 }
 
 
@@ -239,6 +271,10 @@ a {
     padding: 15px 0;
     text-align: center;
 
+    & p {
+        font-size: 12px !important;
+    }
+
     & a {
         color: var(--black);
     }
@@ -251,7 +287,7 @@ a {
 .paper {
     text-decoration: none;
     font-weight: bold;
-    color: var(--purple);
+    color: var(--link-purple);
 }
 
 .link {
@@ -272,6 +308,57 @@ a {
     width: 50%;
     margin-left: 25%;
 }
+
+blockquote {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & p {
+        position: relative;
+        margin: 40px 0;
+        padding: 40px;
+        background-color: var(--quote);
+        border-radius: 16px;
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+
+    }
+
+    & p::before,
+    & p::after {
+        font-size: clamp(40px, 5vw, 80px);
+        font-weight: bold;
+        transform: scale(2);
+        color: var(--quote-purple);
+        opacity: 0.8;
+        font-family: "Georgia", serif;
+        font-style: normal;
+    }
+
+    & p>cite {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    & p::before {
+        content: "“";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
+
+    & p::after {
+        content: "”";
+        position: absolute;
+        bottom: -70px;
+        right: -10px;
+    }
+}
+
 
 @media(min-width:992px) {
 
@@ -311,12 +398,13 @@ a {
     .header.post {
 
         flex-direction: column-reverse !important;
+        height: 20vh;
 
-        & .card-img-top {
-            width: 50%;
-        }
     }
 
+    blockquote>p {
+        width: 80% !important;
+    }
 }
 
 @media(max-width:790px) {
@@ -328,5 +416,9 @@ a {
     .paper-img {
         width: 100%;
         margin-left: 0;
+    }
+
+    blockquote>p {
+        width: 90% !important;
     }
 }

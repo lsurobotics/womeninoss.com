@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating suppotive communities"
-image: supportive.png
+image: "svg images/creating_welcoming_communities.svg"
 ---
 
 #### Why Inclusivity Matters for Open Source Projects

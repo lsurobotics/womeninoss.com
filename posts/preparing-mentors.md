@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Preparing mentors to support women"
-image: preparing.png
+image: "svg images/preparing_mentors.svg"
 ---
 
 #### Introduction
@@ -12,7 +12,7 @@ OSS communities thrive on the contributions of developers from all corners of th
 
 To help newcomers navigate these challenges, projects often assign mentors to guide and support their work. Mentorship programs serve as a key strategy for retaining newcomers in OSS projects, though their implementation varies across projects. In this context, a mentor functions similarly to a professor in a classroom — answering questions, overseeing contributions, and explaining the project's inner activities. As stated by Steinamsorcher et al. in their research paper on being a mentor in OSS:
 
-> “Mentors are usually peers who succeeded in overcoming the project challenges themselves and are willing to help others onboard. In this context, a mentor is a peer who was assigned to or who volunteered to support newcomers onboarding to a project.”
+> Mentors are usually peers who succeeded in overcoming the project challenges themselves and are willing to help others onboard. In this context, a mentor is a peer who was assigned to or who volunteered to support newcomers onboarding to a project. <cite> -- Steinamsorcher et al.</cite>
 
 #### Highlighted Paper
 **"Being a mentor in open source projects."** <a class="paper" target="__blank" href="https://link.springer.com/article/10.1186/s13174-021-00140-z">Steinmacher al., 2021 ⇗</a>
@@ -33,8 +33,9 @@ A mentor's goal is to help mentees develop their skills through guidance and exp
 #### Acknowledging Gender Inequalities
 Mentors should stay vigilant about toxic behaviors among their peers and take proactive steps to prevent and address disrespectful conduct. Mentors must also be aware of personal challenges women may face due to gender inequality, such as imposter syndrome and work-life balance issues. Examples of challenges faced by women within OSS communities include:
 
-> *“In technical discussions, people feel that women cannot do it better so they make comments which makes you uncomfortable.”*
->
+> *“In technical discussions, people feel that women cannot do it better so they make comments which makes you uncomfortable.”* 
+
+
 > *“When women try to achieve more things they are called ambitious in a negative way. Whereas men are expected to.”*
 
 #### Highlighted Paper

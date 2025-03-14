@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting in open-source communities"
-image: starting.png
+image: "svg images/starting_as_a_woman_in_oss.svg"
 ---
 
 ##### 1. The gender gap in open-source projects
