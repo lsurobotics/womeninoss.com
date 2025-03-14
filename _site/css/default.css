@@ -352,7 +352,8 @@ blockquote p::after {
     }
 
     .header {
-        height: 55vh;
+        height: 55vh;        
+        margin-top: 50px;
         padding-top: 0;
     }
 
