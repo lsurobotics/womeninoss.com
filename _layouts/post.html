@@ -7,6 +7,7 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="{{ '/css/bootstrap.min.css' | relative_url }}">
   <script type="text/javascript" src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/js/script.js' | relative_url }}"></script>
   <meta name=“theme-color” content="#000000" />
   <!-- CSS (Default) -->
   <link href="{{ site.url }}/favicon.ico" rel="icon" type="image/x-icon" />
@@ -17,7 +18,7 @@
 <body>
   <nav class="navbar sticky-top navbar-expand-lg">
     <a class="navbar-brand" href="{{ site.url }}">
-      <h4><b>Women in Open Source</b></h4>
+      <img class="navbar-img" src="{{ site.url }}/logos/inline_women_in_oss_ribbon_png.png" />
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
       aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +47,7 @@
 
   <div class="row header post">
     <h3 class="post-title"><i>{{ page.title }}</i></h3>
-    <img src="{{ '/img' | relative_url }}/{{ page.image }}" class="card-img-top" alt="{{ page.title }}">
+    <img src="{{ '/images' | relative_url }}/{{ page.image }}" class="card-img-top" alt="{{ page.title }}">
 
   </div>
 

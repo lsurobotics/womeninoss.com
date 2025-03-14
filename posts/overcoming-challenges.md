@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Overcoming challenges faced by women"
-image: barriers.png
+image: "svg images/overcoming_challenges_faced_by_women.svg"
 ---
 
 ##### It's time to talk about them
