@@ -1,15 +1,15 @@
 window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
-    const navbarImg = document.getElementById('navbar_fp');
+    const navbarLogo = document.getElementById('logo');
     if (window.scrollY > 60 && !navbar.classList.contains("scroll")) {
         navbar.classList.add('scroll');
-        if (navbarImg) {
-            navbarImg.style.display = 'block';
+        if (navbarLogo) {
+            navbarLogo.style.fontSize = 'clamp(16px, 1.25vw, 25px)';
         }
     } else if (window.scrollY <= 60) {
         navbar.classList.remove('scroll');
-        if (navbarImg) {
-            navbarImg.style.display = 'none';
+        if (navbarLogo) {
+            navbarLogo.style.fontSize = '0px';
         }
     }
 
