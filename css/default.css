@@ -9,6 +9,7 @@
     --link-purple: #a014a0;
     --quote-purple: #ecdbfa;
     --light-purple-bg: #ecdbfa;
+    --lighter-purple: #faf7fc;
     --purple: #e1bdfd;
     --card-purple: #e1bdfd30;
     --quote: #f7f7f7a2;
@@ -41,7 +42,7 @@
 /* Body */
 body {
     background-color: var(--white);
-    font-family: "PT Serif", serif;
+    font-family: "Google Sans", sans-serif;
     color: var(--black-font);
     text-align: justify;
 }
@@ -56,7 +57,7 @@ li, p {
 
 /* Navbar */
 .navbar {
-    background-color: var(--purple);
+    background-color: var(--light-purple-bg);
     position: fixed;
     top: 0;
     left: 0;
@@ -74,7 +75,7 @@ li, p {
 }
 
 .navbar img.navbar-img {
-    width: 150px;
+    width: 50px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -111,7 +112,7 @@ li, p {
     margin: 0;
     margin-top: 30px;
     text-align: center;
-    background: linear-gradient(to bottom, var(--purple) 10%, var(--light-purple-bg) 40%, var(--white) 99%);
+    background: linear-gradient(to bottom, var(--light-purple-bg) 20%, var(--white) 99%);
     background-position: center;
     align-items: center;
     justify-content: center;
@@ -124,6 +125,8 @@ li, p {
     display: flex;
     height: 50vh;
     margin-top: 30px;
+    background: none;
+    background-color: var(--lighter-purple);
 }
 
 .header.post .post-title {
