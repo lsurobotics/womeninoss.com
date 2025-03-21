@@ -496,7 +496,7 @@ blockquote p::after {
 }
 
 /* Media Queries */
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     .header.post {
         min-height: 50vh;
     }
