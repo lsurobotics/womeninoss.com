@@ -4,7 +4,7 @@ title:  "Creating suppotive communities"
 image: "svg images/creating_welcoming_communities.svg"
 ---
 
-#### Why Inclusivity Matters for Open Source Projects
+## Why Inclusivity Matters for Open Source Projects
 
 Why is it important to be concerned with gender diversity and supporting women within your open source project? Well, according to research, taking steps to foster an inclusive environment for your open source software project will have a positive impact on areas like productivity, problem-solving, and understanding the needs of users. Research asserts that:
 
@@ -15,30 +15,30 @@ There are many benefits to ensuring that an open source community is welcoming a
 
 ---
 
-#### How to Create a Supporting Community
+## How to Create a Supporting Community
 
 There are many practical steps that can lead to creating an environment that supports women. The key factors include supporting visibility of women, using inclusive behaviors, having mentorship, and even creating women-only initiatives.
 
 ---
 
-#### 1. Having a Code of Conduct
+### 1. Having a Code of Conduct
 
 Having an effective code of conduct that does not tolerate sexist behavior can help to create a more welcoming environment and attract individuals with similar morals to your project.
 
-##### How to Address This Challenge
+#### How to Address This Challenge
 - **Enforce clear policies** that explicitly prohibit discrimination and harassment.
 - **Ensure accountability** by having a reporting mechanism in place.
 - **Actively promote** a culture of inclusivity through training and awareness.
 
 ---
 
-#### 2. Supporting Visibility of Women
+### 2. Supporting Visibility of Women
 
 This can involve not only including women in the project but also recognizing their achievements and giving credit for their contributions. Research shows that women often report a **lack of recognition** in the software industry, which contributes to attrition.
 
 ![Visibility of Women](https://example.com/visibility.jpg)
 
-##### How to Address This Challenge
+#### How to Address This Challenge
 - **Feature women’s contributions** in newsletters, social media, and blogs.
 - **Include diverse imagery** in promotional materials to challenge stereotypes.
 - **Create leadership opportunities** for women within the project.
@@ -47,24 +47,24 @@ This can involve not only including women in the project but also recognizing th
 
 ---
 
-#### 3. Creating Women-Only Groups and Initiatives
+### 3. Creating Women-Only Groups and Initiatives
 
 One way to increase women's participation while fostering a supportive environment is to have **women-specific events**. Research suggests that women-only spaces facilitate **more discussions and opinion-sharing** among female contributors.
 
 ![Women in OSS](https://example.com/women-oss.jpg)
 
-##### How to Address This Challenge
+#### How to Address This Challenge
 - **Establish women-only discussion forums** to create safe spaces.
 - **Host mentorship programs** targeted at female newcomers.
 - **Support initiatives like Outreachy** to provide funding and networking.
 
 ---
 
-#### 4. Supporting Women Who Are Newcomers
+### 4. Supporting Women Who Are Newcomers
 
 Starting out in open source can be daunting. A **lack of clear documentation and guidance** often discourages newcomers. Women, in particular, benefit from structured support systems.
 
-##### How to Address This Challenge
+#### How to Address This Challenge
 - **Provide a clear README and documentation** to ease onboarding.
 - **Label beginner-friendly issues** (e.g., "good first issue").
 - **Designate mentors** to guide newcomers through the process.
@@ -73,13 +73,13 @@ Starting out in open source can be daunting. A **lack of clear documentation and
 
 ---
 
-#### 5. Having Mentorship
+### 5. Having Mentorship
 
 Women are more likely to join OSS through **personal invitations and mentorship**. Research shows that women benefit from having **role models and guidance** throughout their journey.
 
 ![Mentorship in OSS](https://example.com/mentorship.jpg)
 
-##### How to Address This Challenge
+#### How to Address This Challenge
 - **Encourage experienced contributors** to mentor newcomers.
 - **Promote mentorship programs** like Google Summer of Code and Outreachy.
 - **Foster peer support networks** within OSS communities.
@@ -89,7 +89,7 @@ Women are more likely to join OSS through **personal invitations and mentorship*
 
 ---
 
-#### Conclusion: Prioritizing a Supportive Environment for OSS Projects
+### Conclusion: Prioritizing a Supportive Environment for OSS Projects
 
 Creating a supportive environment within an OSS project ensures that women feel welcomed and motivated to contribute. Studies highlight that **gender diversity enhances innovation and productivity** in software engineering.
 
