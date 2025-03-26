@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating suppotive communities"
+title:  "Creating Welcoming Communities"
 image: "svg images/creating_welcoming_communities.svg"
 ---
 
@@ -8,8 +8,8 @@ image: "svg images/creating_welcoming_communities.svg"
 
 Why is it important to be concerned with gender diversity and supporting women within your open source project? Well, according to research, taking steps to foster an inclusive environment for your open source software project will have a positive impact on areas like productivity, problem-solving, and understanding the needs of users. Research asserts that:
 
-> "Gender diversity positively affects productivity by bringing together different perspectives; improving outcomes, innovation, and problem-solving capacity; and fostering a healthier work environment. A diverse development team is more likely to properly comprehend users’ needs, contributing to a better alignment between the delivered software and its intended customers" 
-<a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/9402570">Trinkenreich, 2021 ⇗</a>
+> "Gender diversity positively affects productivity by bringing together different perspectives; improving outcomes, innovation, and problem-solving capacity; and fostering a healthier work environment. A diverse development team is more likely to properly comprehend users’ needs, contributing to a better alignment between the delivered software and its intended customers." 
+<a class="paper" target="__blank" href="https://ieeexplore.ieee.org/abstract/document/9402570">Trinkenreich, 2021 ↗</a>
 
 There are many benefits to ensuring that an open source community is welcoming and supportive of women, and the actions involved to do this can be very simple.
 
@@ -32,11 +32,13 @@ Having an effective code of conduct that does not tolerate sexist behavior can h
 
 ---
 
-### 2. Supporting Visibility of Women
+### 2. Supporting the Visibility of Women
 
 This can involve not only including women in the project but also recognizing their achievements and giving credit for their contributions. Research shows that women often report a **lack of recognition** in the software industry, which contributes to attrition.
 
-![Visibility of Women](https://example.com/visibility.jpg)
+<div class = "image-container">
+  <img src="..\images\svg images\visibility_of_women.svg" alt="A woman shines in the spotlight.">
+</div>
 
 #### How to Address This Challenge
 - **Feature women’s contributions** in newsletters, social media, and blogs.
@@ -51,7 +53,9 @@ This can involve not only including women in the project but also recognizing th
 
 One way to increase women's participation while fostering a supportive environment is to have **women-specific events**. Research suggests that women-only spaces facilitate **more discussions and opinion-sharing** among female contributors.
 
-![Women in OSS](https://example.com/women-oss.jpg)
+<div class = "image-container">
+  <img src="..\images\svg images\exclusive_to_women.svg" alt="A banner for women exclusive events">
+</div>
 
 #### How to Address This Challenge
 - **Establish women-only discussion forums** to create safe spaces.
@@ -77,7 +81,9 @@ Starting out in open source can be daunting. A **lack of clear documentation and
 
 Women are more likely to join OSS through **personal invitations and mentorship**. Research shows that women benefit from having **role models and guidance** throughout their journey.
 
-![Mentorship in OSS](https://example.com/mentorship.jpg)
+<div class = "image-container">
+  <img src="..\images\svg images\having_mentorship.svg" alt="A mentor and a mentee discussing">
+</div>
 
 #### How to Address This Challenge
 - **Encourage experienced contributors** to mentor newcomers.
