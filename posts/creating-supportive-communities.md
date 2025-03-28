@@ -45,7 +45,7 @@ This can involve not only including women in the project but also recognizing th
 - **Include diverse imagery** in promotional materials to challenge stereotypes.
 - **Create leadership opportunities** for women within the project.
 
-**Bar Chart:** Compare the percentage of recognized contributions between men and women in OSS.
+[comment: can include Bar Chart: Compare the percentage of recognized contributions between men and women in OSS.]: #
 
 ---
 
@@ -73,7 +73,8 @@ Starting out in open source can be daunting. A **lack of clear documentation and
 - **Label beginner-friendly issues** (e.g., "good first issue").
 - **Designate mentors** to guide newcomers through the process.
 
-**Pie Chart:** Breakdown of the most significant barriers for women entering OSS.
+[comment: can place Pie Chart: Breakdown of the most significant barriers for women entering OSS.]: #
+
 
 ---
 
@@ -89,9 +90,6 @@ Women are more likely to join OSS through **personal invitations and mentorship*
 - **Encourage experienced contributors** to mentor newcomers.
 - **Promote mentorship programs** like Google Summer of Code and Outreachy.
 - **Foster peer support networks** within OSS communities.
-
-**Quote Graphic:** Include a quote from Bianca Trinkenreich:
-> "Mentorship programs serve as a key strategy for retaining newcomers in OSS projects, but they often fail to address gender-specific barriers."
 
 ---
 

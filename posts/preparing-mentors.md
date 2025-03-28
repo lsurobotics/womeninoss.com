@@ -14,12 +14,9 @@ OSS communities thrive on the contributions of developers from all corners of th
   <img src="..\images\svg images\mentorship.svg" alt="A mentor and a mentee having a conversation.">
 </div>
 
-To help newcomers navigate these challenges, projects often assign mentors to guide and support their work. Mentorship programs serve as a key strategy for retaining newcomers in OSS projects, though their implementation varies across projects. In this context, a mentor functions similarly to a professor in a classroom — answering questions, overseeing contributions, and explaining the project's inner activities. As stated by Steinamsorcher et al. in their research paper on being a mentor in OSS:
+To help newcomers navigate these challenges, projects often assign mentors to guide and support their work. Mentorship programs serve as a key strategy for retaining newcomers in OSS projects, though their implementation varies across projects. In this context, a mentor functions similarly to a professor in a classroom — answering questions, overseeing contributions, and explaining the project's inner activities. As stated by Steinmacher et al. in their research paper, <a class="paper" target="__blank" href="https://link.springer.com/article/10.1186/s13174-021-00140-z">“Being a mentor in open source projects” ↗</a>,
 
-> Mentors are usually peers who succeeded in overcoming the project challenges themselves and are willing to help others onboard. In this context, a mentor is a peer who was assigned to or who volunteered to support newcomers onboarding to a project. <cite> -- Steinamsorcher et al.</cite>
-
-#### Highlighted Paper
-**"Being a mentor in open source projects."** <a class="paper" target="__blank" href="https://link.springer.com/article/10.1186/s13174-021-00140-z">Steinmacher al., 2021 ↗</a>
+> Mentors are usually peers who succeeded in overcoming the project challenges themselves and are willing to help others onboard. In this context, a mentor is a peer who was assigned to or who volunteered to support newcomers onboarding to a project. <cite> -- Steinmacher et al.</cite>
 
 Mentorship programs are essential for the retention of newcomers. The problem, however, is that most mentors are not prepared to support women with the particular challenges they might face due to gender-related issues. Even though an answer to this problem is yet to be given, recent studies summarized guidelines on how to better prepare mentors to support women's participation in OSS. Here is what we have so far:
 
@@ -36,19 +33,17 @@ A mentor's goal is to help mentees develop their skills through guidance and exp
   </figcaption>
 </div>
 
-#### Highlighted Paper
-**"Newcomers’ barriers... is that all? An analysis of mentors’ and newcomers’ barriers in OSS projects."** <a class="paper" target="__blank" href="https://link.springer.com/article/10.1007/s10606-018-9310-8">Balali al., 2018 ↗</a>
+The research paper <a class="paper" target="__blank" href="https://link.springer.com/article/10.1007/s10606-018-9310-8">"Newcomers’ barriers... is that all? An analysis of mentors’ and newcomers’ barriers in OSS projects" ↗</a> talks about the barriers that newcomers face when joining OSS and how mentors help in facilitating the onboarding process for newcomers. 
 
 ### Acknowledging Gender Inequalities
 Mentors should stay vigilant about toxic behaviors among their peers and take proactive steps to prevent and address disrespectful conduct. Mentors must also be aware of personal challenges women may face due to gender inequality, such as imposter syndrome and work-life balance issues. Examples of challenges faced by women within OSS communities include:
 
-> *“In technical discussions, people feel that women cannot do it better so they make comments which makes you uncomfortable.”* 
+> *“In technical discussions, people feel that women cannot do it better so they make comments which makes you uncomfortable.”* <cite> (Trinkenreich al., 2022) </cite>
 
 
-> *“When women try to achieve more things they are called ambitious in a negative way. Whereas men are expected to.”*
+> *“When women try to achieve more things they are called ambitious in a negative way. Whereas men are expected to.”* <cite> (Trinkenreich al., 2022) </cite>
 
-#### Highlighted Paper
-**"An empirical investigation on the challenges faced by women in the software industry: A case study."** <a class="paper" target="__blank" href="https://dl.acm.org/doi/abs/10.1145/3510458.3513018">Trinkenreich al., 2022 ↗</a>
+These responses are a few of the challenges reported by women in <a class="paper" target="__blank" href="https://dl.acm.org/doi/abs/10.1145/3510458.3513018">"An empirical investigation on the challenges faced by women in the software industry: A case study." ↗</a>. The women in the survey who also reported experiencing these challenges have cited them as reasons for leaving the software industry. It is important for mentors to understand the challenges that are present so that they can better support women in OSS.
 
 ### Regular Check-Ins and Responsiveness
 Dedicating time and effort to communicating with mentees helps strengthen and grow an OSS community in the long run. Mentors can set specific times for responding to mentees' requests and establish clear communication guidelines — whether through discussion forums, email, or apps like Slack.
@@ -59,14 +54,10 @@ Dedicating time and effort to communicating with mentees helps strengthen and gr
 One challenge mentors face is selecting tasks appropriate for the skill level of mentees. A useful strategy in OSS projects is "tagging" tasks to identify their difficulty level. Tagging can also include listing the exact skills and knowledge needed to complete a given task. This helps mentors assign appropriate tasks and guide mentees effectively.
 
 ### Providing an Inclusive Environment
-> “Inclusion is important for attracting newcomers, as well as retaining them and increasing their productivity.”
-
-Using inclusive language and actively countering stereotypes can encourage more women to engage and persist in OSS. Keeping a code of conduct up-to-date is another essential step toward ensuring an inclusive environment.
+Research indicates that “Inclusion is important for attracting newcomers, as well as retaining them and increasing their productivity" (Steinmacher et al., 2021) Using inclusive language and actively countering stereotypes can encourage more women to engage and persist in OSS. One other tip for maintaining an inclusive environment is keeping your code of conduct up-to-date. This can also attract individuals with similar values to your project, and help later down the line when facing behavioral difficulties with newcomers or lack of progress.
 
 ### Keeping Newcomers Engaged
-Mentors struggle to keep newcomers engaged. As one mentor put it:
-
-> *“People come, they fix their bug, and they go away.”*
+Mentors struggle to keep newcomers engaged. As one mentor put it *“People come, they fix their bug, and they go away”* (Steinmacher et al.).
 
 Breaking tasks into smaller, manageable pieces and allowing newcomers to suggest functionalities can help retain engagement. Additionally, ensuring timely feedback from mentors can significantly improve newcomer retention.
 
@@ -78,7 +69,7 @@ A demanding OSS environment can be discouraging for newcomers, especially when t
 - Tagging newcomers so they are treated with more patience and support.
 - Holding mentorship workshops to help them onboard smoothly.
 
-Research suggests that women drop out of OSS *“due to the unappealing and hostile social dynamics especially in medium-size projects.”* Creating a less harsh environment can help retain women in OSS communities.
+Research suggests that women drop out of OSS *“due to the unappealing and hostile social dynamics especially in medium-size projects”* (Trinkenreich al., 2022). Creating a less harsh environment can help retain women in OSS communities.
 <div class = "image-container">
   <img src="..\images\svg images\welcome_newcomers_banner.svg" alt="A banner that says 'welcome newcomers'">
 </div>
