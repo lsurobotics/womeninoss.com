@@ -51,6 +51,7 @@ body {
     color: var(--black-font);
     text-align: justify;
     font-size: clamp(16px, 1.05vw, 25px);
+    padding-top: env(safe-area-inset-top); /*should make iphone show purple at top part around camera*/
 }
 
 a {
@@ -312,6 +313,8 @@ ul {
 .card-text {
     color: var(--black-font);
     margin-bottom: 5px;
+    text-align: left; 
+    font-size: clamp(16px, 1.15vw, 25px);
 }
 
 /* Footer */
