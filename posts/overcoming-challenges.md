@@ -44,4 +44,4 @@ Besides gender-associated challenges, women also face the same challenges as any
 - <b>Process barriers:</b> Lengthy contributions, unclear contribution guidelines, and difficulty in finding beginner-friendly tasks.
 - <b>Technical barriers:</b> Difficulties in setting up the project locally, high code complexity, and lack of background knowledge to start a contribution.
 
-While such barriers may exist, following our guidelines for getting started in an open-source project can help overcome these challenges. Don't waste your time, read our <a class="paper" target="__blank" href="http://localhost:4000/posts/starting-in-oss">discussion ↗</a> on this topic.
+While such barriers may exist, following our guidelines for getting started in an open-source project can help overcome these challenges. Don't waste your time, read our <a class="paper" target="__blank" href="/posts/starting-in-oss.html">discussion ↗</a> on this topic.

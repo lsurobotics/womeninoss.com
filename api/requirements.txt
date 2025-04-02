@@ -1,0 +1,9 @@
+git+https://github.com/tue-mdse/genderComputer.git
+Flask==3.0.3
+Flask-Cors==4.0.1
+openai==1.59.4
+python-dotenv==1.0.1
+SpeechRecognition==3.13.0
+Wave==0.0.2
+pydub==0.25.1
+requests

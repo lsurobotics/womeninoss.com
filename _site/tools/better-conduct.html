@@ -1,0 +1,172 @@
+<!-- Default layout -->
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <title>BetterConduct</title>
+  <meta charset="utf-8">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/marked.min.js"></script>
+  <script type="text/javascript"  src="http://localhost:4000/js/marked.min.js"></script>
+
+  <script type="text/javascript" src="/js/script.js"></script>
+  <meta name=“theme-color” content="#000000" />
+  <!-- CSS (Default) -->
+  <link href="http://localhost:4000/favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="/css/default.css">
+  <script src="https://kit.fontawesome.com/3d9da8be4a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</header>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg">
+    <a class="navbar-brand" href="http://localhost:4000">
+      <img class="navbar-img" id="logo"src="http://localhost:4000/logos/lp_w_dp_asterisk_logo_png.png" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <h5><a class="nav-link " href="http://localhost:4000#discussions">
+              Discussions
+            </a></h5>
+        </li>
+        <li class="nav-item dropdown">
+          <h5><a class="nav-link " href="http://localhost:4000#tools">
+              Tools
+            </a></h5>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/lsurobotics/womeninoss" target="_blank">
+            <h5>Contribute</h5>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row header tools">
+    <h1 class="post-title">BetterConduct</h1>
+    <h3 class="post-title">Improving Conduct with AI</h3>
+
+  </div>
+
+  <div class="row section tools">
+    <h3 id="repository-url">Repository URL</h3>
+<div class="inputContainer">
+    <input type="url" id="repo_url" placeholder="Enter the repository URL" />
+    <button id="improve-btn" onclick="submitUrl()">Improve</button>
+</div>
+
+<div class="c-loader" id="c-loader" style="display:none"></div>
+
+<div class="feedbackContainer" id="feedbackContainer" style="display:none">
+    <div>
+        <h4>Feedback</h4>
+        <p id="feedbackText"></p>
+    </div>
+    <div>
+        <h4>BetterConduct</h4>
+        <div id="output-code">
+            <button class="copy-btn" onclick="copyText()">
+                <svg enable-background="new 0 0 24 24" focusable="false" height="24" viewBox="0 0 24 24" width="24" class="NMm5M">
+                    <g>
+                        <rect fill="none" height="24" width="24"></rect>
+                    </g>
+                    <g>
+                        <path d="M16,20H5V6H3v14c0,1.1,0.9,2,2,2h11V20z M20,16V4c0-1.1-0.9-2-2-2H9
+                                 C7.9,2,7,2.9,7,4v12c0,1.1,0.9,2,2,2h9C19.1,18,20,17.1,20,16z M18,16H9V4h9V16z">
+                        </path>
+                    </g>
+                </svg>
+            </button>
+            <p id="markdownText"></p>
+        </div>
+    </div>
+</div>
+
+<div id="error" style="display:none"></div>
+
+<script type="module">
+    import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+</script>
+
+<script>
+    let error_svg = '<svg viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M18.2202 21.25H5.78015C5.14217 21.2775 4.50834 21.1347 3.94373 20.8364C3.37911 20.5381 2.90402 20.095 2.56714 19.5526C2.23026 19.0101 2.04372 18.3877 2.02667 17.7494C2.00963 17.111 2.1627 16.4797 2.47015 15.92L8.69013 5.10999C9.03495 4.54078 9.52077 4.07013 10.1006 3.74347C10.6804 3.41681 11.3346 3.24518 12.0001 3.24518C12.6656 3.24518 13.3199 3.41681 13.8997 3.74347C14.4795 4.07013 14.9654 4.54078 15.3102 5.10999L21.5302 15.92C21.8376 16.4797 21.9907 17.111 21.9736 17.7494C21.9566 18.3877 21.7701 19.0101 21.4332 19.5526C21.0963 20.095 20.6211 20.5381 20.0565 20.8364C19.4919 21.1347 18.8581 21.2775 18.2202 21.25V21.25Z" stroke="#c54042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>';
+
+    async function submitUrl() {
+        let button = document.getElementById("improve-btn");
+        button.disabled = true;
+
+        let url = document.getElementById("repo_url").value;
+        let cleanUrl = url.split("?")[0];
+        let error = document.getElementById("error");
+        let pattern = /^https?:\/\/github\.com\/[^\/]+\/[^\/]+\/?$/;
+
+        if (pattern.test(cleanUrl)) {
+            let loader = document.getElementById("c-loader");
+            let feedbackContainer = document.getElementById("feedbackContainer");
+
+            loader.style.display = "";
+            feedbackContainer.style.display = "none";
+            error.style.display = "none";
+
+            try {
+                let response = await fetch("http://127.0.0.1:5000/api/better-conduct", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ repo_url: cleanUrl })
+                });
+
+                let data = await response.json();
+
+                if (data.exception) {
+                    throw new Error(data.exception);
+                }
+
+                document.getElementById("feedbackText").innerHTML = marked.parse(data.feedback);
+                document.getElementById("markdownText").innerHTML = marked.parse(data.better_conduct);
+                
+                feedbackContainer.style.display = "";
+                loader.style.display = "none";
+            } catch (e) {
+                loader.style.display = "none";
+                error.innerHTML = error_svg + e;
+                error.style.display = "";
+            }
+        } else {
+            loader.style.display = "none";
+            error.innerHTML = error_svg + "Invalid URL! Make sure it is in the correct format.";
+            error.style.display = "";
+        }
+
+        button.disabled = false;
+    }
+
+    function copyText() {
+        const text = document.getElementById("markdownText").innerText;
+        navigator.clipboard.writeText(text)
+            .then(() => {})
+            .catch(err => console.error("Erro ao copiar: ", err));
+    }
+</script>
+
+
+  </div>
+
+  <div class="footer">
+    <p>Proudly sponsored by <a href="https://www.lsu.edu/" target="_blank" alt="Louisiana State University">Louisiana
+        State University</a>. Hosted with GitHub Pages.</p>
+
+  </div>
+
+</body>
+
+</html>
