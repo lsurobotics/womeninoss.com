@@ -35,6 +35,7 @@ image: "COC.svg"
                 </svg>
             </button>
             <p id="markdownText"></p>
+            <p id="markdown" style="display: none;"></p>
         </div>
     </div>
 </div>
@@ -66,6 +67,7 @@ image: "COC.svg"
             error.style.display = "none";
 
             const site_url = window.location.origin
+
             try {
                 let response = await fetch(site_url+"/api/better-conduct", {
                     method: "POST",
@@ -83,6 +85,7 @@ image: "COC.svg"
 
                 document.getElementById("feedbackText").innerHTML = marked.parse(data.feedback);
                 document.getElementById("markdownText").innerHTML = marked.parse(data.better_conduct);
+                document.getElementById("markdown").innerHTML = data.better_conduct;
                 
                 feedbackContainer.style.display = "";
                 loader.style.display = "none";
@@ -101,7 +104,7 @@ image: "COC.svg"
     }
 
     function copyText() {
-        const text = document.getElementById("markdownText").innerText;
+        const text = document.getElementById("markdown").innerText;
         navigator.clipboard.writeText(text)
             .then(() => {})
             .catch(err => console.error("Erro ao copiar: ", err));
