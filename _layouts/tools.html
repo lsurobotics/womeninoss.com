@@ -1,0 +1,70 @@
+<!-- Default layout -->
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="{{ '/css/bootstrap.min.css' | relative_url }}">
+  <script type="text/javascript" src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/js/marked.min.js' | relative_url }}"></script>
+
+  <script type="text/javascript" src="{{ '/js/script.js' | relative_url }}"></script>
+  <meta name=“theme-color” content="#000000" />
+  <!-- CSS (Default) -->
+  <link href="{{ site.url }}/favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="{{ '/css/default.css' | relative_url }}">
+  <script src="https://kit.fontawesome.com/3d9da8be4a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</header>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg">
+    <a class="navbar-brand" href="{{ site.url }}">
+      <img class="navbar-img" id="logo"src="{{ site.url }}/logos/lp_w_dp_asterisk_logo_png.png" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <h5><a class="nav-link " href="{{ site.url }}#discussions">
+              Discussions
+            </a></h5>
+        </li>
+        <li class="nav-item dropdown">
+          <h5><a class="nav-link " href="{{ site.url }}#tools">
+              Tools
+            </a></h5>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/lsurobotics/womeninoss" target="_blank">
+            <h5>Contribute</h5>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row header tools">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h3 class="post-title">{{ page.subtitle }}</h3>
+
+  </div>
+
+  <div class="row section tools">
+    {{ content }}
+  </div>
+
+  <div class="footer">
+    <p>Proudly sponsored by <a href="https://www.lsu.edu/" target="_blank" alt="Louisiana State University">Louisiana
+        State University</a>. Hosted with GitHub Pages.</p>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,29 +1,34 @@
 window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
     const navbarLogo = document.getElementById('logo');
-    
-    if (window.scrollY > 60 && !navbar.classList.contains("scroll")) {
-        navbar.classList.add('scroll');
-        if (navbarLogo) {
-            navbarLogo.style.display = 'block';
-        }
-    } else if (window.scrollY <= 60) {
-        navbar.classList.remove('scroll');
-        if (navbarLogo && !window.location.href.includes('/posts/')) {
-            navbarLogo.style.display = 'none';
+    if (!(['/posts/', '/tools/'].some(path => window.location.href.includes(path)))) {
+        if (window.scrollY > 60 && !navbar.classList.contains("scroll")) {
+            navbar.classList.add('scroll');
+            if (navbarLogo) {
+                navbarLogo.style.display = 'block';
+            }
+        } else if (window.scrollY <= 60) {
+            navbar.classList.remove('scroll');
+            if (navbarLogo) {
+                navbarLogo.style.display = 'none';
+            }
         }
     }
 
 });
 window.addEventListener('DOMContentLoaded', function () {
-    const navbarLogo = document.getElementById('logo');
-    if (navbarLogo && window.location.href.includes('/posts/')) {
-        navbarLogo.style.display = 'block';
-    }
     const scrollToTopButton = document.createElement('button');
     scrollToTopButton.id = 'scroll-to-top';
     scrollToTopButton.innerHTML = '<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7"/></svg>';
-    document.body.appendChild(scrollToTopButton);
+
+    const navbarLogo = document.getElementById('logo');
+    if (navbarLogo && (['/posts/', '/tools/'].some(path => window.location.href.includes(path)))) {
+        navbarLogo.style.display = 'block';
+        if (window.location.href.includes('/posts/')) {
+            document.body.appendChild(scrollToTopButton);
+        }
+    }
+
     window.addEventListener('scroll', function () {
         if (window.scrollY > 200) {
 

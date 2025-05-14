@@ -13,11 +13,11 @@
     --purple: #e1bdfd;
     --card-purple: #e1bdfd30;
     --quote: #f7f7f7a2;
-    --img-vlp:#faf5f8;
-    --img-lp:#bfaada;
-    --img-dp:#695286;
-    --img-lr:#c54042;
-    --img-dr:#391f1f;
+    --img-vlp: #faf5f8;
+    --img-lp: #bfaada;
+    --img-dp: #695286;
+    --img-lr: #c54042;
+    --img-dr: #391f1f;
 }
 
 /* Scrollbar */
@@ -117,7 +117,7 @@ h5 {
     width: 50px;
 }
 
-#logo{
+#logo {
     display: none;
 }
 
@@ -191,6 +191,25 @@ h5 {
     }
 }
 
+.header.tools {
+    margin-top: 50px;
+    margin-bottom: 0;
+    background: var(--light-purple-bg);
+    display: flex;
+    margin-top: 30px;
+    background: none;
+    background-color: var(--lighter-purple);
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    min-height: 50vh;
+    height: 50vh;
+    max-height: 50vh;
+}
+
 .header.post .post-title {
     width: 100%;
     color: #695286;
@@ -256,6 +275,11 @@ ul {
 .section.post>ul {
     width: 97% !important;
 }
+
+.section.tools {
+    padding-bottom: 0;
+}
+
 
 /* Cards */
 .card-item {
@@ -368,17 +392,19 @@ ul {
     background-color: var(--img-vlp);
     padding: 1em;
     border-radius: 12px;
-    display: inline-block; /* shrink to fit image */
+    display: inline-block;
+    /* shrink to fit image */
     text-align: center;
     margin: 1.5em 0;
 }
+
 .image-container img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 8px; 
-  }
+    border-radius: 8px;
+}
 
 /* fig caption */
 figcaption {
@@ -397,9 +423,9 @@ figcaption {
     gap: 1.5rem;
     justify-content: center;
     margin: 2rem 0;
-  }
-  
-  .link-card {
+}
+
+.link-card {
     flex: 1 1 250px;
     max-width: 300px;
     background-color: #faf5f8;
@@ -407,35 +433,35 @@ figcaption {
     border-radius: 12px;
     text-decoration: none;
     color: inherit;
-  
+
     /* Center contents */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+
     text-align: center;
     transition: transform 0.2s ease;
-    min-height: 300px; 
-  }
-  
-  .link-card:hover {
+    min-height: 300px;
+}
+
+.link-card:hover {
     transform: scale(1.03);
-  }
-  
-  .link-card img {
+}
+
+.link-card img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-  }
-  
-  .link-card figcaption {
+}
+
+.link-card figcaption {
     margin-top: 0.75em;
     font-weight: bold;
     font-size: 0.95em;
     color: var(--img-dp);
-  }
-  
+}
+
 
 /* Blockquotes */
 blockquote {
@@ -581,6 +607,188 @@ blockquote p::after {
     box-shadow: 0 0 3px 1px var(--shadow) !important;
 }
 
+.inputContainer {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 2px solid var(--light-purple-bg);
+    border-radius: 4px;
+    margin-bottom: 15px;
+
+    & input {
+        width: 100%;
+        padding: 5px 10px;
+        outline: none;
+        border: none;
+        border-top-left-radius: 0.5px;
+        border-bottom-left-radius: 0.5px;
+        background-color: var(--lighter-purple);
+
+        :focus {
+            outline: none;
+            border: none;
+        }
+    }
+
+    & button {
+        padding: 5px 10px;
+        border: none;
+        border-top-right-radius: 0.5px;
+        border-bottom-right-radius: 0.5px;
+        background-color: var(--light-purple-bg);
+    }
+}
+
+.feedbackContainer {
+    margin: auto;
+    margin-top: 0;
+
+    h4 {
+        color: var(--img-dp);
+    }
+}
+
+#output-code {
+    background-color: var(--lighter-purple);
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 70vh;
+
+}
+
+#feedbackText {
+    background-color: var(--lighter-purple);
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+.copy-btn {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 5px 1px;
+    filter: opacity(0.5);
+
+    svg {
+        width: 20px;
+    }
+}
+
+.copy-btn:hover {
+    filter: opacity(1);
+}
+
+#markdownText,
+#feedbackText {
+    padding: 10px;
+
+    blockquote * {
+        all: unset !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: var(--black-font);
+    }
+}
+
+#markdownText {
+    max-height: 55vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid var(--lighter-purple);
+    border-radius: 50%;
+    border-top-color: var(--purple);
+    height: 50px;
+    width: 50px;
+    margin-left: calc((100% - 50px) / 2);
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+#error {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    color: var(--img-lr);
+}
+
+img.avatar_url {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.userItem {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    min-width: 100px;
+    width: calc(100% - 10px);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 5px;
+    height: auto;
+    color: var(--black-font);
+    border: 1px solid var(--lighter-purple);
+
+    p {
+        line-height: 0;
+        font-weight: 600;
+        margin: 10px 0 5px 0;
+    }
+
+    span {
+        font-size: clamp(12px, 1.05vw, 20px);
+        margin: 0;
+    }
+}
+
+.userItem:hover {
+    background-color: var(--lighter-purple);
+}
+
+#contributorsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* Media Queries */
 @media (max-width: 1200px) {
     .header.post {
@@ -589,6 +797,10 @@ blockquote p::after {
 
     .section {
         padding: 0 10%;
+    }
+
+    .section.tools {
+        padding: 50px 10%;
     }
 
 }
@@ -691,7 +903,7 @@ blockquote p::after {
     }
 
     .container-header img {
-      
+
         width: 90%;
     }
 

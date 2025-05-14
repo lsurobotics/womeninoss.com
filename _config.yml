@@ -11,6 +11,8 @@ markdown: kramdown
 
 include:
   - image
+  - posts
+  - tools
 
 # Exclude files from the build
 exclude:
