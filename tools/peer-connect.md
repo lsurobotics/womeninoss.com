@@ -44,7 +44,8 @@ image: "peer_connect.svg"
             feedbackContainer.style.display = "none";
             error.style.display = "none";
             
-            const site_url = window.location.origin
+            const site_url = 'https://api-womeninoss.vercel.app'
+            
             try {
                 let response = await fetch(site_url+"/api/peer-connect", {
                     method: "POST",
